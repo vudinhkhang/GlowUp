@@ -1,0 +1,28 @@
+# Maven
+backend/target/
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Python
+**/__pycache__/
+**/*.pyc
+ai-service/.venv/
+ai-service/venv/
+ai-service/.env
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Logs
+*.log
+.system_generated/
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
